@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="32dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:background="@color/white"
+    tools:context=".Fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/profile_edit_text_shape"
+            android:orientation="horizontal"
+            android:elevation="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name:"
+                android:textSize="20sp"
+                android:textColor="@color/bluish"
+                android:fontFamily="@font/c"
+                android:layout_marginLeft="8dp"/>
+
+            <EditText
+                android:id="@+id/profilename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:paddingLeft="6dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/f"
+                android:background="@android:color/transparent"
+                android:inputType="textPersonName"
+                android:text="Admin" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/profile_edit_text_shape"
+            android:orientation="horizontal"
+            android:elevation="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Phone:"
+                android:textSize="20sp"
+                android:textColor="@color/bluish"
+                android:fontFamily="@font/c"
+                android:layout_marginLeft="8dp"/>
+
+            <EditText
+                android:id="@+id/profilephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:paddingLeft="6dp"
+                android:fontFamily="@font/f"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:inputType="phone"
+                android:text="9111111110" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/profile_edit_text_shape"
+            android:orientation="horizontal"
+            android:elevation="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Address:"
+                android:textSize="20sp"
+                android:textColor="@color/bluish"
+                android:fontFamily="@font/c"
+                android:layout_marginLeft="8dp"/>
+
+            <EditText
+                android:id="@+id/profileAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:paddingLeft="6dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/f"
+                android:background="@android:color/transparent"
+                android:inputType="textMultiLine"
+                android:text="L-54, HINDALCO COLONY ,SONEBHADRA,231217" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/profile_edit_text_shape"
+            android:orientation="horizontal"
+            android:elevation="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Email:"
+                android:textSize="20sp"
+                android:textColor="@color/bluish"
+                android:fontFamily="@font/c"
+                android:layout_marginLeft="8dp"/>
+
+            <EditText
+                android:id="@+id/profileemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:paddingLeft="6dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/f"
+                android:background="@android:color/transparent"
+                android:inputType="textEmailAddress"
+                android:text="admin@gmail.com" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveInformation"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Save Information"
+            android:textColor="@color/bluish"
+            android:fontFamily="@font/c"
+            android:elevation="5dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="32dp"
+            android:textAllCaps="false"
+            android:background="@drawable/profile_edit_text_shape"
+            android:layout_gravity="bottom"/>
+</FrameLayout>

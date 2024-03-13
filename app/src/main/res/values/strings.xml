@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Just Eat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_the_flavor_here">Explore The Flavor Here...</string>
+    <string name="directly_at_your_doorstep">Directly At Your Doorstep</string>
+    <string name="just_eat">Just Eat</string>
+    <string name="sign_up_here">Sign Up Here</string>
+</resources>
