@@ -10,6 +10,8 @@
 
 ![WhatsApp Image 2024-03-25 at 15 55 45_eb83e98e](https://github.com/Shreetipandeygithub/JustEat/assets/99243601/25714070-07ac-468e-b846-e4fbfe22cf2b)
 
+# This is the Home Page
+
 ![WhatsApp Image 2024-03-25 at 15 55 38_744a08c5](https://github.com/Shreetipandeygithub/JustEat/assets/99243601/d45394cc-5852-48b1-b732-150acddca344)
 
 ![WhatsApp Image 2024-03-25 at 15 55 48_13783bc8](https://github.com/Shreetipandeygithub/JustEat/assets/99243601/b07ac2ef-9bae-49d6-b95f-3149c65433bc)
